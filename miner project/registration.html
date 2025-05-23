@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pandit Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4b178a;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="file"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .submit-btn {
+      background-color: #4a148c;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .submit-btn:hover {
+      background-color: #6a1b9a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Pandit Registration Form</h2>
+
+    <form>
+      <div class="section">
+        <label>Full Name:</label>
+        <input type="text" name="fullname" required />
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required />
+
+        <label>Gender:</label><br />
+        <input type="checkbox" name="gender" value="Male" /> Male
+        <input type="checkbox" name="gender" value="Female" /> Female
+        <input type="checkbox" name="gender" value="Other" /> Other
+      </div>
+
+      <div class="section">
+        <label>Mobile Number:</label>
+        <input type="text" name="mobile" required />
+
+        <label>Email Address:</label>
+        <input type="email" name="email" />
+
+        <label>Address:</label>
+        <textarea name="address" rows="3"></textarea>
+      </div>
+
+      <div class="section">
+        <label>Years of Experience:</label>
+        <input type="number" name="experience" min="0" />
+
+        <label>Languages Spoken:</label><br />
+        <input type="checkbox" name="languages" value="Hindi" /> Hindi
+        <input type="checkbox" name="languages" value="Sanskrit" /> Sanskrit
+        <input type="checkbox" name="languages" value="English" /> English
+      </div>
+
+      <div class="section">
+        <label>Specialized Puja Services:</label><br />
+        <input type="checkbox" name="puja" value="Grih Pravesh" /> Grih Pravesh
+        <input type="checkbox" name="puja" value="Vivah" /> Vivah
+        <input type="checkbox" name="puja" value="Bhagwat  Katha" /> Bhagwat Katha
+        <input type="checkbox" name="puja" value="DIWALI PUJA" /> DIWALI PUJA
+        <input type="checkbox" name="puja" value="OFFICE PUJA" /> OFFICE PUJA
+        <input type="checkbox" name="puja" value="DURGA PUJA" /> DURGA PUJA
+      </div>
+
+      <div class="section">
+        <label>Institution Name:</label>
+        <input type="text" name="guru" />
+
+        <label>Bank Name:</label>
+        <input type="text" name="bank_name" />
+
+        <label>Account Number:</label>
+        <input type="text" name="account_no" />
+
+        <label>IFSC Code:</label>
+        <input type="text" name="ifsc" />
+        
+      </div>
+
+      <div class="section">
+        <label>Upload Aadhaar Card:</label>
+        <input type="file" name="aadhaar" />
+
+        <label>Upload Certificates:</label>
+        <input type="file" name="certificates" />
+      </div>
+
+      <div class="section">
+        <input type="checkbox" required />
+        I hereby declare that all information provided is true.
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Registration</button>
+    </form>
+  </div>
+</body>
+</html>

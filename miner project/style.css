@@ -1,0 +1,313 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(222, 128, 14);
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 50px;
+    
+
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    text-size-adjust: 200px;
+    
+}
+.nav_bar a {
+    font-size:17px ;
+    text-decoration:rgb(10, 10, 68);
+    padding-left: 50px;
+    
+}
+.search_bar{
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    
+}
+.search_icon{
+    box-sizing: content-box;
+    height: 10px;
+    padding-left: 0px;
+    color: #1e2a67;
+   font-weight: 300;
+   border-radius: 4px 0 0 4px;
+   
+}
+.search_input{
+    color: azure;
+    background-color: antiquewhite;
+    flex-grow: 1;
+    height: 30px;
+    border: 0px;
+}
+img {
+    height: 400px;
+    
+}
+#image_container{
+    border: 2px solid black;
+}
+
+.container{
+    background-color: rgb(205, 212, 218);
+    border: 2px solid white;
+    color: rgb(19, 19, 48);
+    height: 50px;
+    width: 600px;
+    padding-top: 10px;
+    font-size: 25px;
+    justify-content: left;
+}
+
+
+.content {
+    height: 500px;
+    text-align: left;
+  }
+  
+  .left-div, .right-div {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+  }
+  .content {
+    overflow: hidden;
+  }
+  
+  .left-div, .right-div {
+    float: left;
+    width: 50%;
+    height: 500px; 
+    background-color: rgb(238, 242, 243); 
+    padding: 10px;
+    font-size: 20px;
+    justify-content: left;
+    font-weight: 10px;
+
+  }
+    .left-div,.right-div image{
+    image-rendering: auto;
+    height: fit-content;
+    padding-left: 10px;
+  }
+ .container_services{
+    height: 30px;
+    color: rgb(16, 3, 3);
+    font-size: 25px;
+    justify-content: top;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(243, 239, 238);
+    object-fit: cover;
+ }
+ .services_container,.services1 ,.box1{
+    display: inline-block;
+    background-color: rgb(191, 214, 205);
+    color: black;
+    text-decoration: solid;
+    top: 10px;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 60px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(bhagwat.img);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    
+}
+
+
+.services_container,.services2,.box2{
+    display: inline-block;
+    background-color: rgb(151, 201, 35);
+    color: black;
+    text-decoration: solid;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(diwali.image.jpg);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    
+}
+.services_container,.services3 ,.box3{
+    display: inline-block;
+    background-color: rgb(244, 225, 218);
+    color: black;
+    text-decoration: solid;
+    font-size: 30px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(marriage.image.jpg);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+    
+    
+}
+
+
+.services_container,.services4 ,.box4{
+    display: inline-block;
+    background-color: rgb(206, 162, 104);
+    color: black;
+    text-decoration: solid;
+    font-size: 30px;
+justify-content: top;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 60px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(griha.image);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+
+.services_container,.services5,.box5{
+    display: inline-block;
+    background-color: rgb(206, 162, 104);
+    color: black;
+    text-decoration: solid;
+    font-size: 30px;
+justify-content: top;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(office.image);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+     
+
+
+.services_container,.services6,.box6{
+    display: inline-block;
+    background-color: rgb(206, 162, 104);
+    color: black;
+    text-decoration: solid;
+    font-size: 30px;
+   justify-content: top;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    object-fit: cover;
+    background-image: url(durga.image);
+    background-size: cover;   
+      background-position: center;
+      background-repeat: no-repeat;
+}
+
+.servuce_container{
+    background-image: url(back.image.jpg);
+    background-position: 0%;
+}
+.servuce_container ,.box1{
+    image-orientation: flip;
+    border-image-outset: 0cqb;
+    object-fit: cover;
+    object-position: 0%;
+    background-size: cover;  
+    background-color: rgb(240, 236, 234);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 10px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .footer-form {
+    margin: 15px 0;
+  }
+  
+  .footer-form input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 280px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .footer-form button,
+  .footer-form .book-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .footer-form .book-button {
+    background-color: #007bff;
+  }
+  
+  .footer-form .book-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-form button:hover {
+    background-color: #218838;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: #fff;
+  }
+  
+  
+  
